@@ -3,7 +3,8 @@
 ###################
 echo "Поехали!"
 sleep 5
-apt-get update && upgrade -y
+apt-get update && apt-get upgrade -y
+apt-get update && apt-get dist-upgrade -y
 apt-get install screen -y
 apt-get install htop -y
 apt-get install sudo -y
